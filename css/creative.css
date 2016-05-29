@@ -91,6 +91,7 @@ aside .fa:focus {
 span#name {
   color: white;
   cursor: pointer;
+  text-decoration: underline;
 }
 a#mail {
   display: inline-block;
