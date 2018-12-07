@@ -1,187 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Personal website of Tomas Hromada">
+      <meta name="author" content="Tomas Hromada">
+      <title>Tomas Hromada</title>
 
-    <title>Tomas Hromada</title>
+      <link rel="stylesheet" href="styles.css" type="text/css">
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  </head>
 
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+  <body>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <div id="content"></div>
+    <script src="script.js"></script>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top">
-    <header>
-        <div class="background-header"></div>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 class="noselect">yo</h1>
-                <hr class="light">
-                <p class="noselect">moje jméno je <span id="name">Tomáš Hromada</span> a tohle je můj web</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll"><i>click to scroll</i></a>
-            </div>
-        </div>
-    </header>
-    
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2>co jsem zač</h2>
-                    <hr class="dark">
-                    <p class="text-muted">programátor</p>
-                    <p class="text-muted">student umělé inteligence na mff uk</p>
-                    <a href="#services" class="page-scroll btn btn-primary btn-xl">
-                        <i class="fa fa-arrow-down wow bounceIn"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-primary" id="services">
-        <div class="bg-primary-background"></div>
-        <div class="bg-primary-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">moje zájmy</h2>
-                        <hr class="primary">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-terminal wow bounceIn text-primary"></i>
-                            <h3>programování</h3>
-                            <p class="text-lighted">python, scientific computing<br>ruby on rails, ios apps</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-flask wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                            <h3>bioinformatika</h3>
-                            <p class="text-lighted">struktura rna<br>genome engineering</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-tint wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                            <h3>ux & design</h3>
-                            <p class="text-lighted">jednoduchost<br>estetika</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-headphones wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                            <h3>hudba a hry</h3>
-                            <p class="text-lighted">indie<br>alternative</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <div class="row">
-                    <div class="col-lg-2 col-md-2 text-center">
-                        <a target="_blank" href="https://github.com/gyfis">
-                            <i class="fa fa-4x fa-github wow bounceIn text-primary"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 text-center">
-                        <a target="_blank" href="https://www.facebook.com/Tomas.Hromada">
-                            <i class="fa fa-4x fa-facebook wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 text-center">
-                        <a target="_blank" href="https://twitter.com/gyfis">
-                            <i class="fa fa-4x fa-twitter wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 text-center">
-                        <a target="_blank" href="https://www.linkedin.com/in/tom%C3%A1%C5%A1-hromada-8568344a">
-                            <i class="fa fa-4x fa-linkedin wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 text-center">
-                        <a target="_blank" href="http://stackoverflow.com/users/1581558/gyfis">
-                            <i class="fa fa-4x fa-stack-overflow wow bounceIn text-primary" data-wow-delay=".4s"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 text-center">
-                        <a target="_blank" href="https://steamcommunity.com/id/gyfis">
-                            <i class="fa fa-4x fa-steam wow bounceIn text-primary" data-wow-delay=".5s"></i>
-                        </a>
-                    </div>
-                </div>
-                <hr class="dark">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a id="mail" href="mailto:yo@tomashromada.cz">
-                            <i class="fa fa-envelope-o fa-4x wow bounceIn" data-wow-delay=".25s"></i>
-                            <br>
-                            yo@tomashromada.cz
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <p>
-                <a href=".">this website</a> is maintained by <a href="https://github.com/gyfis">gyfis</a>
-                <br>gradients from <a target="_blank" href="https://github.com/Ghosh/uiGradients">uigradients</a>
-                <br>© 2016
-            </p>
-        </footer>
-    </aside>
-    
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/jquery.color.min.js"></script>
-    
-    <!-- wow -->
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-
-</body>
+  </body>
 
 </html>
