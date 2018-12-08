@@ -14,12 +14,12 @@ html, body {
   flex: 1;
   display: flex;
   flex-direction: row;
-  /* border: black solid 3px; */
 }
 
 .col {
   flex: 1;
   border: black solid 5px;
+  background: black;
 }
 
 .link {
